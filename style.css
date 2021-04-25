@@ -1,0 +1,67 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Noto Sans JP", sans-serif;
+}
+h2 {
+	font-size: 2rem;
+}
+h4 {
+	font-size: 1rem;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+.main-nav {
+	background-color: #131c27;
+	color: white;
+}
+nav {
+	display: flex;
+	width: 90%;
+	margin: auto;
+	align-items: center;
+	min-height: 10vh;
+}
+nav ul {
+	display: flex;
+	flex: 3 1 40rem;
+	justify-content: space-around;
+	align-items: center;
+	list-style: none;
+}
+nav li:hover {
+	border-bottom: 2px solid yellow;
+	padding-bottom: 5px;
+	transition: 0.1s;
+}
+#logo {
+	flex: 2 1 40rem;
+}
+.hero {
+	min-height: 90vh;
+	background: linear-gradient(rgba(0, 0, 0, 0.7), transparent),
+		url("pics/shifaaz-shamoon-oR0uERTVyD0-unsplash.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	color: white;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.hero h2 {
+	padding: 3rem;
+}
+.hero button {
+	margin-top: 20px;
+	background-color: rgb(2, 0, 148);
+	color: white;
+	border: none;
+	padding: 12px;
+	border-radius: 4px;
+}
