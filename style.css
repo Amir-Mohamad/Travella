@@ -64,4 +64,40 @@ nav li:hover {
 	border: none;
 	padding: 12px;
 	border-radius: 4px;
+	cursor: pointer;
+}
+.hero button:hover {
+	background-color: rgb(2, 0, 109);
+}
+.city {
+	min-height: 100vh;
+	background: linear-gradient(rgba(0, 0, 0, 0.7), transparent),
+		url("pics/kunal-shinde--f0YLss50Bs-unsplash.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 50px;
+	/* align-items: center; */
+}
+.city button {
+	margin-top: 20px;
+	background-color: rgb(2, 0, 148);
+	color: white;
+	border: none;
+	padding: 12px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.city .jungle-form {
+	width: 35%;
+	padding: 50px;
+	margin-left: auto;
+	background-color: white;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
 }
