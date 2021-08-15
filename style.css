@@ -172,3 +172,26 @@ nav li:hover {
 	background: #cccccc;
 	border-radius: 4px;
 }
+@media (max-width: 768px) {
+  nav ul {
+    display: none;
+  }
+  .main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .fa-bars {
+    display: inline-block !important;
+    color: #fff;
+    font-size: 1.8rem;
+    margin: 0 2rem;
+  }
+  .fa-bars:hover {
+    color: yellow;
+  }
+  #logo {
+    margin: 0 2rem;
+  }
+}
+
